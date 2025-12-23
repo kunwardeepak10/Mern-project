@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delizia | Modern Dining</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <img src="Delizia.png" alt="Delizia Logo">
+    <span>Delizia</span>
+  </div>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="hamburger">
+    <span></span><span></span><span></span>
+  </label>
+
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#hours">Hours</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="hero">
+  <div class="hero-content reveal">
+    <h1>Welcome to Delizia</h1>
+    <p class="tagline">Taste the Difference. Experience the Ambience.</p>
+    <a href="#menu" class="btn">View Menu</a>
+  </div>
+  <div class="hero-img reveal delay-1">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Restaurant Interior">
+  </div>
+</section>
+
+<section id="menu">
+  <h2 class="section-title reveal">Our Signature Menu</h2>
+
+  <div class="menu-grid">
+    <div class="menu-card reveal delay-1">
+      <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=80" alt="Pizza">
+      <div class="menu-info">
+        <div class="menu-header">
+          <h3>Margherita Pizza</h3>
+          <span class="price">$12</span>
+        </div>
+        <p>Fresh mozzarella, san marzano tomato sauce & basil.</p>
+        <a href="#order-modal" class="btn small">Order Now</a>
+      </div>
+    </div>
+
+    <div class="menu-card reveal delay-2">
+      <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80" alt="Pasta">
+      <div class="menu-info">
+        <div class="menu-header">
+          <h3>Pasta Carbonara</h3>
+          <span class="price">$14</span>
+        </div>
+        <p>Creamy sauce with pancetta, egg yolk, and black pepper.</p>
+        <a href="#order-modal" class="btn small">Order Now</a>
+      </div>
+    </div>
+
+    <div class="menu-card reveal delay-3">
+      <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=500&q=80" alt="Salad">
+      <div class="menu-info">
+        <div class="menu-header">
+          <h3>Caesar Salad</h3>
+          <span class="price">$9</span>
+        </div>
+        <p>Crisp romaine, parmesan cheese, croutons & house dressing.</p>
+        <a href="#order-modal" class="btn small">Order Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2 class="section-title reveal">Gallery</h2>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80" class="gallery-img reveal delay-1" alt="Food 1">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80" class="gallery-img reveal delay-2" alt="Food 2">
+    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=400&q=80" class="gallery-img reveal delay-3" alt="Food 3">
+    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=400&q=80" class="gallery-img reveal delay-1" alt="Food 4">
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title reveal">Contact Us</h2>
+  <div class="contact-container">
+    <form class="contact-form reveal delay-1">
+      <h3 style="margin-bottom:1rem; font-family:'Playfair Display', serif; color:var(--primary);">Send a Message</h3>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4"></textarea>
+      <button class="btn">Send Message</button>
+    </form>
+
+    <div class="contact-info reveal delay-2">
+      <h3>Get in Touch</h3>
+      <p>We are located in the heart of the city.</p>
+      <ul style="list-style:none; margin-top:1rem; display:flex; flex-direction:column; gap:1rem;">
+        <li><strong>📍 Address:</strong> New Baneshowr, Kathmandu </li>
+        <li><strong>📞 Phone:</strong> 9845735422</li>
+        <li><strong>✉️ Email:</strong> delizia_premium@delizia.com</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="hours">
+  <h2 class="section-title reveal">Opening Hours</h2>
+  <div class="hours-cards">
+    <div class="hours-card reveal delay-1">
+      <span class="day">Mon – Fri</span>
+      <span class="time">10:00 AM – 10:00 PM</span>
+    </div>
+    <div class="hours-card reveal delay-2">
+      <span class="day">Sat – Sun</span>
+      <span class="time">11:00 AM – 11:00 PM</span>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-content">
+    <h3>Delizia</h3>
+    <ul class="footer-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="footer-bottom">© 2025 Delizia Restaurant. All rights reserved.</p>
+  </div>
+</footer>
+
+<div id="order-modal" class="modal">
+  <div class="modal-box">
+    <a href="#" class="close">&times;</a>
+    <h3>Place Your Order</h3>
+    <form>
+      <label>Dish Name</label>
+      <select>
+        <option>Margherita Pizza ($12)</option>
+        <option>Pasta Carbonara ($14)</option>
+        <option>Caesar Salad ($9)</option>
+      </select>
+      
+      <label>Your Name</label>
+      <input type="text" placeholder="John Doe" required>
+      
+      <label>Phone Number</label>
+      <input type="tel" placeholder="(555) 000-0000" required>
+      
+      <button class="btn" style="width:100%; margin-top:10px;">Confirm Order</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  // 1. Scroll Reveal Animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  });
+  const hiddenElements = document.querySelectorAll('.reveal');
+  hiddenElements.forEach((el) => observer.observe(el));
+
+  // 2. Mobile Menu Auto-Close
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const navToggle = document.getElementById('nav-toggle');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      navToggle.checked = false; // Uncheck the box to close menu
+    });
+  });
+</script>
+
+</body>
+</html>
